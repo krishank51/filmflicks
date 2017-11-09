@@ -1,0 +1,12 @@
+www-root is the folder that is directly being server by the webserver
+Your server administrator will configure that way (or ask him to !!!)
+
+
+www-data should be writable by the webserver and should hold your data file
+Example CSV
+
+
+www-lib is outside the document root should hold all you code that should not be directly exposed by PHP
+In other words all files here should be included ir required by the code in www-root
+
+
